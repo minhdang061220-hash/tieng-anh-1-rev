@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Bé Học Tiếng Anh 1 - Global Success (Kết Nối Tri Thức Với Cuộc Sống)</title>
+  
+  <!-- Font chữ tiếng Việt chuẩn đẹp, tròn trịa, không lỗi font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Baloo 2"', 'Nunito', 'Quicksand', 'sans-serif'],
+          },
+          colors: {
+            primary: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gradient-to-br from-amber-50 via-orange-50 to-emerald-50 min-h-screen text-slate-800 antialiased selection:bg-orange-200">
+
+  <!-- Canvas Pháo hoa thưởng sao -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Thông báo trạng thái đang phát âm thanh -->
+  <div id="audio-indicator-badge" class="hidden fixed bottom-6 right-6 z-50 bg-slate-900/90 backdrop-blur-md text-white px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-orange-500/40 animate-bounce">
+    <div class="flex items-center gap-1">
+      <span class="sound-wave-bar"></span>
+      <span class="sound-wave-bar"></span>
+      <span class="sound-wave-bar"></span>
+      <span class="sound-wave-bar"></span>
+      <span class="sound-wave-bar"></span>
+    </div>
+    <span id="audio-indicator-text" class="text-sm font-black text-amber-300">Đang phát âm: "ball"</span>
+  </div>
+
+  <!-- Modal Mở Trên Điện Thoại (QR Code & Link Wi-Fi) -->
+  <div id="mobile-qr-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/60 backdrop-blur-sm animate-fadeIn">
+    <div class="bg-white rounded-3xl p-6 md:p-8 max-w-md w-full shadow-2xl border-4 border-orange-200 relative text-center">
+      <button onclick="app.closeMobileModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 font-black text-sm flex items-center justify-center">✕</button>
+      
+      <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl mx-auto flex items-center justify-center text-3xl mb-3 shadow-inner">
+        📱
+      </div>
+      
+      <h3 class="text-2xl font-black text-gray-900">Mở Trên Điện Thoại / iPad</h3>
+      <p class="text-xs text-gray-500 mt-1 mb-4">Bé học trực tiếp bằng màn hình cảm ứng, vuốt tập tô chữ và nghe phát âm cực mượt!</p>
+
+      <!-- Mã QR Code -->
+      <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-4 rounded-2xl border-2 border-orange-100 inline-block mb-4 shadow-sm">
+        <img id="mobile-qr-img" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=http%3A%2F%2F192.168.1.13%3A8085%2F" alt="QR Code mở trên điện thoại" class="w-48 h-48 mx-auto rounded-xl">
+      </div>
+
+      <!-- Khung link địa chỉ -->
+      <div class="bg-gray-100 p-3 rounded-2xl flex items-center justify-between gap-2 mb-4 border border-gray-200">
+        <span id="mobile-target-url" class="font-mono text-sm font-black text-blue-600 truncate">http://192.168.1.13:8085/</span>
+        <button onclick="app.copyMobileLink()" class="btn-bounce bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-3 py-1.5 rounded-xl shrink-0">Sao chép</button>
+      </div>
+
+      <!-- Hướng dẫn 3 bước -->
+      <div class="text-left bg-orange-50/70 p-3.5 rounded-2xl border border-orange-100 text-xs text-gray-700 space-y-1.5">
+        <div class="font-black text-orange-900 flex items-center gap-1.5">
+          <span>💡</span> <span>Cách mở trong 5 giây:</span>
+        </div>
+        <p>1️⃣ Đảm bảo điện thoại và máy tính kết nối <b>chung mạng Wi-Fi</b> ở nhà.</p>
+        <p>2️⃣ Mở <b>Camera</b> trên iPhone hoặc <b>Zalo / Google Lens</b> trên Android hướng vào mã QR.</p>
+        <p>3️⃣ Chạm vào thông báo để mở ứng dụng ngay trên điện thoại!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Chọn Giọng Đọc (Nam, Nữ, Bạn nhỏ, Robot) -->
+  <div id="voice-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/60 backdrop-blur-sm animate-fadeIn">
+    <div class="bg-white rounded-3xl p-6 md:p-8 max-w-lg w-full shadow-2xl border-4 border-purple-200 relative text-center">
+      <button onclick="app.closeVoiceModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 font-black text-sm flex items-center justify-center">✕</button>
+      
+      <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl mx-auto flex items-center justify-center text-3xl mb-3 shadow-inner">
+        🗣️
+      </div>
+      
+      <h3 class="text-2xl font-black text-gray-900">Chọn Giọng Đọc Yêu Thích</h3>
+      <p class="text-xs text-gray-500 mt-1 mb-5">Đổi giọng đọc để bé học vui hơn: Thầy giáo, Cô giáo, Bạn nhỏ hoặc Robot!</p>
+
+      <!-- Danh sách 4 loại giọng đọc -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5 text-left">
+        
+        <!-- Giọng Nữ (Cô giáo) -->
+        <button type="button" onclick="app.selectVoice('female')" class="voice-opt-btn btn-bounce p-3.5 rounded-2xl border-2 transition-all flex items-center gap-3 relative" data-voice="female">
+          <span class="text-4xl">👩</span>
+          <div class="truncate">
+            <div class="font-black text-gray-900 text-sm">Cô giáo (Giọng Nữ)</div>
+            <div class="text-[11px] text-gray-500">Dịu dàng, trong trẻo, chuẩn Mỹ</div>
+          </div>
+          <span class="voice-check-badge hidden absolute top-2 right-2 text-purple-600 font-black text-sm">✓</span>
+        </button>
+
+        <!-- Giọng Nam (Thầy giáo) -->
+        <button type="button" onclick="app.selectVoice('male')" class="voice-opt-btn btn-bounce p-3.5 rounded-2xl border-2 transition-all flex items-center gap-3 relative" data-voice="male">
+          <span class="text-4xl">👨</span>
+          <div class="truncate">
+            <div class="font-black text-gray-900 text-sm">Thầy giáo (Giọng Nam)</div>
+            <div class="text-[11px] text-gray-500">Trầm ấm, rõ ràng, dứt khoát</div>
+          </div>
+          <span class="voice-check-badge hidden absolute top-2 right-2 text-purple-600 font-black text-sm">✓</span>
+        </button>
+
+        <!-- Giọng Bạn nhỏ (Giọng Bé) -->
+        <button type="button" onclick="app.selectVoice('kid')" class="voice-opt-btn btn-bounce p-3.5 rounded-2xl border-2 transition-all flex items-center gap-3 relative" data-voice="kid">
+          <span class="text-4xl">🧒</span>
+          <div class="truncate">
+            <div class="font-black text-gray-900 text-sm">Bạn nhỏ (Giọng Bé)</div>
+            <div class="text-[11px] text-gray-500">Vui tươi, nhí nhảnh, gần gũi</div>
+          </div>
+          <span class="voice-check-badge hidden absolute top-2 right-2 text-purple-600 font-black text-sm">✓</span>
+        </button>
+
+        <!-- Giọng Bạn Robot -->
+        <button type="button" onclick="app.selectVoice('robot')" class="voice-opt-btn btn-bounce p-3.5 rounded-2xl border-2 transition-all flex items-center gap-3 relative" data-voice="robot">
+          <span class="text-4xl">🤖</span>
+          <div class="truncate">
+            <div class="font-black text-gray-900 text-sm">Bạn Robot (Vui Nhộn)</div>
+            <div class="text-[11px] text-gray-500">Hài hước, vui tai, kích thích bé</div>
+          </div>
+          <span class="voice-check-badge hidden absolute top-2 right-2 text-purple-600 font-black text-sm">✓</span>
+        </button>
+
+      </div>
+
+      <!-- Tùy chỉnh tốc độ đọc -->
+      <div class="bg-purple-50/70 p-3.5 rounded-2xl border border-purple-100 text-left mb-4">
+        <div class="flex items-center justify-between text-xs font-black text-purple-950 mb-2">
+          <span>Tốc độ đọc của giọng:</span>
+          <span id="speed-label" class="text-purple-600">Vừa phải (0.85x)</span>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <button type="button" onclick="app.selectSpeed(0.75)" class="speed-opt-btn py-1.5 rounded-xl text-xs font-bold border transition-all text-center" data-speed="0.75">🐢 Chậm rãi</button>
+          <button type="button" onclick="app.selectSpeed(0.85)" class="speed-opt-btn py-1.5 rounded-xl text-xs font-bold border transition-all text-center" data-speed="0.85">🐇 Vừa phải</button>
+          <button type="button" onclick="app.selectSpeed(1.0)" class="speed-opt-btn py-1.5 rounded-xl text-xs font-bold border transition-all text-center" data-speed="1.0">⚡ Chuẩn tốc</button>
+        </div>
+      </div>
+
+      <button type="button" onclick="app.closeVoiceModal()" class="btn-bounce w-full bg-purple-600 hover:bg-purple-700 text-white font-black py-2.5 rounded-2xl text-sm shadow-md">
+        Xong, lưu giọng đọc này!
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Thanh tiêu đề Header -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b-2 border-orange-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      
+      <!-- Logo & Tên ứng dụng -->
+      <div class="flex items-center gap-3">
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-2xl bg-orange-100 text-orange-700 hover:bg-orange-200 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-orange-500 to-amber-400 flex items-center justify-center text-2xl shadow-md shadow-orange-500/20 text-white">
+          🎒
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-700 uppercase tracking-wider">Tiếng Anh 1</span>
+            <span class="text-xs text-gray-500 hidden sm:inline">Global Success • NXB Giáo Dục</span>
+          </div>
+          <h1 class="text-lg md:text-xl font-black text-slate-900 tracking-tight leading-tight">Bé Học Tiếng Anh 1</h1>
+        </div>
+      </div>
+
+      <!-- Tên Unit hiện tại & Nút điều hướng -->
+      <div class="hidden md:flex items-center gap-3 bg-orange-50/80 px-4 py-1.5 rounded-2xl border border-orange-200/60">
+        <button onclick="app.prevUnit()" class="btn-bounce p-1.5 rounded-xl text-orange-600 hover:bg-orange-200 text-sm font-black" title="Bài trước">◀</button>
+        <div class="text-center px-2">
+          <div id="header-unit-title" class="font-black text-orange-950 text-sm leading-tight">Unit 1: In the school playground</div>
+          <div id="header-unit-subtitle" class="text-xs text-orange-700/80 font-semibold leading-tight">Bài 1: Trong sân trường</div>
+        </div>
+        <button onclick="app.nextUnit()" class="btn-bounce p-1.5 rounded-xl text-orange-600 hover:bg-orange-200 text-sm font-black" title="Bài tiếp theo">▶</button>
+      </div>
+
+      <!-- Nút Điều Khiển: Đổi Giọng, Mở Điện Thoại, Thử Loa & Sao Thưởng -->
+      <div class="flex items-center gap-2">
+        <!-- Nút Đổi Giọng Đọc -->
+        <button onclick="app.openVoiceModal()" id="voice-btn" class="btn-bounce bg-purple-600 hover:bg-purple-700 text-white text-xs font-black px-3 py-2 rounded-2xl flex items-center gap-1.5 shadow-md shadow-purple-500/20" title="Đổi giọng đọc: Thầy giáo, Cô giáo, Bạn nhỏ, Robot">
+          <span id="header-voice-icon" class="text-base">👩</span>
+          <span id="header-voice-label" class="hidden sm:inline">Cô giáo</span>
+          <span class="text-[10px] opacity-75">▾</span>
+        </button>
+
+        <!-- Nút Mở Trên Điện Thoại -->
+        <button onclick="app.openMobileModal()" class="btn-bounce bg-blue-600 hover:bg-blue-700 text-white text-xs font-black px-3 py-2 rounded-2xl flex items-center gap-1.5 shadow-md shadow-blue-500/20" title="Lấy mã QR và link mở bằng điện thoại">
+          <span class="text-base">📱</span>
+          <span class="hidden md:inline">Mở ĐT</span>
+        </button>
+
+        <!-- Nút Test Âm Thanh Nhanh -->
+        <button onclick="app.testAudio()" class="btn-bounce bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-black px-3 py-2 rounded-2xl flex items-center gap-1.5 shadow-md shadow-emerald-500/20" title="Bấm để kiểm tra loa máy tính">
+          <span class="text-base">🔊</span>
+          <span class="hidden md:inline">Thử Loa</span>
+        </button>
+
+        <!-- Đếm Sao Thưởng Của Bé -->
+        <div class="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-yellow-500 text-white px-3 py-1.5 rounded-2xl shadow-md font-black">
+          <span class="text-base star-twinkle">⭐</span>
+          <span id="star-count" class="text-sm tracking-wide">15</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Khung Bố Cục Chính (Sidebar + Main) -->
+  <div class="max-w-7xl mx-auto px-4 py-6 flex gap-6">
+    
+    <!-- Sidebar Danh Sách 16 Unit -->
+    <aside id="sidebar" class="hidden lg:block w-72 shrink-0 bg-white/95 rounded-3xl p-4 shadow-lg border-2 border-orange-100 max-h-[calc(100vh-105px)] overflow-y-auto sticky top-20 z-30">
+      <div class="flex items-center justify-between pb-3 mb-2 border-b border-gray-100">
+        <div class="flex items-center gap-2">
+          <span class="text-lg">📚</span>
+          <span class="font-black text-gray-800 text-base">Mục Lục 16 Unit</span>
+        </div>
+        <button onclick="app.toggleSidebar()" class="lg:hidden text-gray-400 hover:text-gray-600">✕</button>
+      </div>
+      <div id="unit-list-container" class="space-y-1">
+        <!-- Render động từ js/app.js -->
+      </div>
+    </aside>
+
+    <!-- Khu Vực Học Tập Chính -->
+    <main class="flex-1 min-w-0">
+      
+      <!-- Điều hướng Unit cho thiết bị di động -->
+      <div class="md:hidden flex items-center justify-between bg-white p-3 rounded-2xl shadow-sm border border-orange-100 mb-4">
+        <button onclick="app.prevUnit()" class="btn-bounce px-3 py-1.5 bg-orange-100 rounded-xl text-orange-700 font-bold text-xs">◀ Bài trước</button>
+        <span class="text-xs font-black text-orange-900 truncate px-2" id="mobile-unit-label">Unit 1</span>
+        <button onclick="app.nextUnit()" class="btn-bounce px-3 py-1.5 bg-orange-100 rounded-xl text-orange-700 font-bold text-xs">Bài sau ▶</button>
+      </div>
+
+      <!-- Thanh chuyển Tab Chức Năng (Đọc - Nghe - Nói - Viết - Trò Chơi - SGK) -->
+      <div class="bg-orange-200/50 p-1.5 rounded-2xl flex items-center gap-1.5 overflow-x-auto mb-6 shadow-inner text-sm font-semibold scrollbar-none">
+        
+        <button onclick="app.switchTab('read')" data-tab="read" class="tab-btn flex-1 min-w-[110px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>📖</span>
+          <span>1. Đọc & Từ</span>
+        </button>
+
+        <button onclick="app.switchTab('listen')" data-tab="listen" class="tab-btn flex-1 min-w-[110px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>🎧</span>
+          <span>2. Luyện Nghe</span>
+        </button>
+
+        <button onclick="app.switchTab('speak')" data-tab="speak" class="tab-btn flex-1 min-w-[110px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>🎤</span>
+          <span>3. Luyện Nói</span>
+        </button>
+
+        <button onclick="app.switchTab('write')" data-tab="write" class="tab-btn flex-1 min-w-[110px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>✍️</span>
+          <span>4. Tập Viết</span>
+        </button>
+
+        <button onclick="app.switchTab('game')" data-tab="game" class="tab-btn flex-1 min-w-[100px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>🎮</span>
+          <span>Trò Chơi</span>
+        </button>
+
+        <button onclick="app.switchTab('book')" data-tab="book" class="tab-btn flex-1 min-w-[110px] py-2.5 px-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+          <span>📑</span>
+          <span>SGK Gốc</span>
+        </button>
+
+      </div>
+
+      <!-- Nội dung tương tác từng Tab -->
+      <div id="main-tab-content" class="min-h-[500px]">
+        <!-- Render động từ js/app.js -->
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-16 py-8 border-t border-orange-200/60 bg-white/60 text-center text-xs text-gray-500">
+    <div class="max-w-4xl mx-auto px-4 space-y-2">
+      <p class="font-bold text-gray-700">Ứng Dụng Hỗ Trợ Bé Học Tiếng Anh Lớp 1 - Theo Chuẩn Sách Giáo Khoa Global Success</p>
+      <p>NXB Giáo Dục Việt Nam • Bộ sách Kết Nối Tri Thức Với Cuộc Sống • Đầy đủ 16 Unit với 4 kỹ năng Nghe - Nói - Đọc - Viết</p>
+    </div>
+  </footer>
+
+  <!-- Script Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

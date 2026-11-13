@@ -1,0 +1,938 @@
+﻿[
+    {
+        "index":  1,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-1-1779701257101.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  1
+                }
+    },
+    {
+        "index":  2,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-2-1779701257445.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  2
+                }
+    },
+    {
+        "index":  3,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-3-1779701257772.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  3
+                }
+    },
+    {
+        "index":  4,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-4-1779701258066.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  4
+                }
+    },
+    {
+        "index":  5,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-5-1779701258364.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  5
+                }
+    },
+    {
+        "index":  6,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-6-1779701258730.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  6
+                }
+    },
+    {
+        "index":  7,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-7-1779701259183.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  7
+                }
+    },
+    {
+        "index":  8,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-8-1779701259697.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  8
+                }
+    },
+    {
+        "index":  9,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-9-1779701260034.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  9
+                }
+    },
+    {
+        "index":  10,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-10-1779701260460.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  10
+                }
+    },
+    {
+        "index":  11,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-11-1779701260779.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  11
+                }
+    },
+    {
+        "index":  12,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-12-1779701261118.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  12
+                }
+    },
+    {
+        "index":  13,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-13-1779701261492.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  13
+                }
+    },
+    {
+        "index":  14,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-14-1779701261842.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  14
+                }
+    },
+    {
+        "index":  15,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-15-1779701262257.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  15
+                }
+    },
+    {
+        "index":  16,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-16-1779701262633.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  16
+                }
+    },
+    {
+        "index":  17,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-17-1779701262980.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  17
+                }
+    },
+    {
+        "index":  18,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-18-1779701263471.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  18
+                }
+    },
+    {
+        "index":  19,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-19-1779701263813.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  19
+                }
+    },
+    {
+        "index":  20,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-20-1779701264148.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  20
+                }
+    },
+    {
+        "index":  21,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-21-1779701264547.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  21
+                }
+    },
+    {
+        "index":  22,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-22-1779701264888.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  22
+                }
+    },
+    {
+        "index":  23,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-23-1779701265240.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  23
+                }
+    },
+    {
+        "index":  24,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-24-1779701265651.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  24
+                }
+    },
+    {
+        "index":  25,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-25-1779701266030.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  25
+                }
+    },
+    {
+        "index":  26,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-26-1779701266351.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  26
+                }
+    },
+    {
+        "index":  27,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-27-1779701266724.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  27
+                }
+    },
+    {
+        "index":  28,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-28-1779701267043.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  28
+                }
+    },
+    {
+        "index":  29,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-29-1779701267360.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  29
+                }
+    },
+    {
+        "index":  30,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-30-1779701267724.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  30
+                }
+    },
+    {
+        "index":  31,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-31-1779701268071.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  31
+                }
+    },
+    {
+        "index":  32,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-32-1779701268485.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  32
+                }
+    },
+    {
+        "index":  33,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-33-1779701268843.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  33
+                }
+    },
+    {
+        "index":  34,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-34-1779701269247.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  34
+                }
+    },
+    {
+        "index":  35,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-35-1779701269635.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  35
+                }
+    },
+    {
+        "index":  36,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-36-1779701270036.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  36
+                }
+    },
+    {
+        "index":  37,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-37-1779701270451.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  37
+                }
+    },
+    {
+        "index":  38,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-38-1779701270825.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  38
+                }
+    },
+    {
+        "index":  39,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-39-1779701271180.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  39
+                }
+    },
+    {
+        "index":  40,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-40-1779701271513.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  40
+                }
+    },
+    {
+        "index":  41,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-41-1779701272009.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  41
+                }
+    },
+    {
+        "index":  42,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-42-1779701272362.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  42
+                }
+    },
+    {
+        "index":  43,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-43-1779701272698.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  43
+                }
+    },
+    {
+        "index":  44,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-44-1779701273122.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  44
+                }
+    },
+    {
+        "index":  45,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-45-1779701273460.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  45
+                }
+    },
+    {
+        "index":  46,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-46-1779701273838.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  46
+                }
+    },
+    {
+        "index":  47,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-47-1779701274217.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  47
+                }
+    },
+    {
+        "index":  48,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-48-1779701274553.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  48
+                }
+    },
+    {
+        "index":  49,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-49-1779701274989.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  49
+                }
+    },
+    {
+        "index":  50,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-50-1779701275400.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  50
+                }
+    },
+    {
+        "index":  51,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-51-1779701275732.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  51
+                }
+    },
+    {
+        "index":  52,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-52-1779701276144.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  52
+                }
+    },
+    {
+        "index":  53,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-53-1779701276522.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  53
+                }
+    },
+    {
+        "index":  54,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-54-1779701276891.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  54
+                }
+    },
+    {
+        "index":  55,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-55-1779701277335.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  55
+                }
+    },
+    {
+        "index":  56,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-56-1779701277696.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  56
+                }
+    },
+    {
+        "index":  57,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-57-1779701278027.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  57
+                }
+    },
+    {
+        "index":  58,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-58-1779701278411.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  58
+                }
+    },
+    {
+        "index":  59,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-59-1779701278740.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  59
+                }
+    },
+    {
+        "index":  60,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-60-1779701279080.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  60
+                }
+    },
+    {
+        "index":  61,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-61-1779701279532.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  61
+                }
+    },
+    {
+        "index":  62,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-62-1779701279867.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  62
+                }
+    },
+    {
+        "index":  63,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-63-1779701280213.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  63
+                }
+    },
+    {
+        "index":  64,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-64-1779701280539.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  64
+                }
+    },
+    {
+        "index":  65,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-65-1779701280871.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  65
+                }
+    },
+    {
+        "index":  66,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-66-1779701281291.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  66
+                }
+    },
+    {
+        "index":  67,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-67-1779701281638.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  67
+                }
+    },
+    {
+        "index":  68,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-68-1779701281985.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  68
+                }
+    },
+    {
+        "index":  69,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-69-1779701282429.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  69
+                }
+    },
+    {
+        "index":  70,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-70-1779701282811.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  70
+                }
+    },
+    {
+        "index":  71,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-71-1779701283184.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  71
+                }
+    },
+    {
+        "index":  72,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-72-1779701283577.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  72
+                }
+    },
+    {
+        "index":  73,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-73-1779701283926.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  73
+                }
+    },
+    {
+        "index":  74,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-74-1779701284299.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  74
+                }
+    },
+    {
+        "index":  75,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-75-1779701284617.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  75
+                }
+    },
+    {
+        "index":  76,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-76-1779701284962.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  76
+                }
+    },
+    {
+        "index":  77,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-77-1779701285315.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  77
+                }
+    },
+    {
+        "index":  78,
+        "url":  {
+                    "value":  "https://taphuan.nxbgd.vn/storage/upload/taphuan/2026/0525/4914061146-page-78-1779701285685.png",
+                    "PSPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch\\page_urls.txt",
+                    "PSParentPath":  "C:\\Users\\PC\\.gemini\\antigravity\\brain\\540a2dab-b2b9-46f0-a21d-63c80d49d159\\scratch",
+                    "PSChildName":  "page_urls.txt",
+                    "PSDrive":  "C",
+                    "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                    "ReadCount":  78
+                }
+    }
+]
